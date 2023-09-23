@@ -1,0 +1,440 @@
+:root{
+    /* ### Primary */
+
+
+    --Softorange: hsl(35, 77%, 62%);
+    --Softred: hsl(5, 85%, 63%);
+    
+    /* ### Neutral */
+    
+    --Off-white: hsl(36, 100%, 99%);
+    --Grayishblue: hsl(233, 8%, 79%);
+    --Darkgrayishblue: hsl(236, 13%, 42%);
+    --Verydarkblue: hsl(240, 100%, 5%);
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Inter' ;
+    src: url('./assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format(ttf);
+    src: url('./assets/fonts/static/Inter-Bold.ttf') format(ttf);
+    src: url('./assets/fonts/static/Inter-ExtraBold.ttf') format(ttf);
+    src: url('./assets/fonts/static/Inter-Regular.ttf') format(ttf);
+
+
+}
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    
+}
+  
+
+
+section{
+    /* padding-top: 1rem; */
+    /* margin: 2rem; */
+}
+
+#navbar{
+    
+    display: flex;
+    width: 65%;
+    margin: auto;
+    padding: 1.2rem 0rem 0.5rem 0rem;
+    font-size: 1remm;
+    justify-content: space-between;
+    
+      
+}
+#navbar img{
+    width: 60%
+}
+.icon-menu{
+    display: none;
+}
+
+.nav-link{
+    display: flex;
+    list-style: none;
+    font-family: sans-serif;
+    color: hsl(236, 13%, 42%);
+    font-weight: 700;
+    font-size: 0.9rem;
+    
+}
+
+.nav-link a{
+    text-decoration: none;
+    padding: 0 0.7rem;
+    cursor: pointer;
+    
+}
+
+.nav-link a:hover{
+    color: hsl(5, 85%, 63%);
+    
+}
+section{
+    /* min-height: 100vh; */
+    /* if there will be more section then add this */
+}
+.container{
+    
+   margin: auto;
+    width: 65%;
+    display: flex; 
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-family: 'Inter';
+    
+}
+.top-container{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.left-top-top{
+  
+    width: 100%;
+}
+.left-top-top .img1{
+
+    width: 100%;
+    /* overflow: hidden; */
+    object-fit: contain;
+    
+}
+.left-top-top .img2{
+    display: none;
+}
+
+.left-top-bottom{
+    display: flex;
+    flex-direction: row;
+    padding-top: 1.5rem;
+    font-family: 'Inter';
+    gap: 1.2rem;
+}
+.left-top-bottom-left{
+    width: 100%;
+    font-size: 1.5rem;
+
+}
+.left-top-bottom-right p{
+    font-size: 0.9rem;
+    padding: 0 1.3rem;
+    text-align: left;
+
+}
+.left-top-bottom-right .read{
+    margin: 1.5rem 0rem 0rem 1.2rem;
+    padding: 0.5rem 1.3rem;
+    background-color: hsl(5, 85%, 63%);
+    border: none;
+    color: hsl(0, 0%, 100%);
+    font-size: 0.9rem;
+    letter-spacing: 0.15rem;
+    cursor: pointer;
+}
+.left-top-bottom-right .read:hover{
+    background-color: black;
+}
+.right-top{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(240, 100%, 5%);
+    padding: 1.2rem 1.2rem 0 1.2rem;
+    width: 80%;
+}
+.right-top h1{
+    font-size: rem;
+    color: hsl(35, 77%, 62%);
+    padding: 0.5rem 0;
+}
+.right-top h2{
+    font-size: 1rem;
+    /* padding: 0.7rem 0; */
+    padding: 1rem 0 0.5rem 0;
+    cursor: pointer;
+}
+.right-top h2:hover{
+    color: hsl(35, 77%, 62%);
+}
+.right-top p{
+    font-size: 0.9rem;
+    font-weight: lighter;
+    color: hsl(233, 8%, 79%);
+    padding-bottom: 1rem;
+}
+.right-top hr{
+    border-color: hsl(233, 8%, 79%,0.5);
+}
+.bottom-container{
+    
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-family: 'Inter';
+}
+.bottom-container .bottom1{
+ 
+    display: flex;
+    flex-direction: row;  
+
+}
+.bottom-container .bottom1 .bottom1a {
+ 
+    width: 50%;
+}
+.bottom-container .bottom1 .bottom1a img{
+    width: 80%;
+}
+
+
+.bottom-container .bottom1 .bottom1b h1{
+  
+    font-size: 1.2rem;
+    color: hsl(233, 8%, 79%);
+    padding-bottom: 0.1rem;
+}
+.bottom-container .bottom1 .bottom1b h2{
+  
+    font-size: 0.9rem;
+    font-weight:800;
+    padding-bottom: 0.1rem;
+    cursor: pointer;
+}
+.bottom-container .bottom1 .bottom1b h2:hover{
+    color: hsl(5, 85%, 63%);
+}
+.bottom-container .bottom1 .bottom1b p{
+  
+    font-size: 0.9rem;
+    color: hsl(233, 8%, 79%);
+
+}
+
+.bottom-container .bottom2{
+  
+    display: flex;
+    flex-direction: row;
+}
+.bottom-container .bottom2 .bottom2a {
+  
+    width: 50%;
+}
+.bottom-container .bottom2 .bottom2a img{
+    width: 90%;
+}
+
+.bottom-container .bottom2 .bottom2b h1{
+    font-size: 1.2rem;
+    color: hsl(233, 8%, 79%);
+    padding-bottom: 0.1rem;
+}
+.bottom-container .bottom2 .bottom2b h2{
+    font-size: 0.9rem;
+    font-weight:800;
+    padding-bottom: 0.1rem;
+    cursor: pointer;
+}
+.bottom-container .bottom2 .bottom2b h2:hover{
+    color: hsl(5, 85%, 63%);
+}
+.bottom-container .bottom2 .bottom2b p{
+    font-size: 0.9rem;
+    color: hsl(233, 8%, 79%);
+    
+
+}
+.bottom-container .bottom3{
+   
+    display: flex;
+    flex-direction: row;
+}
+.bottom-container .bottom3 .bottom3a {
+    
+    width: 50%;
+}
+.bottom-container .bottom3 .bottom3a img{
+    width: 90%;
+}
+
+.bottom-container .bottom3 .bottom3b h1{
+    font-size: 1.2rem;
+    color: hsl(233, 8%, 79%);
+    padding-bottom: 0.1rem;
+}
+.bottom-container .bottom3 .bottom3b h2{
+    font-size: 0.9rem;
+    font-weight:800;
+    padding-bottom: 0.1rem;
+    cursor: pointer;
+
+}
+.bottom-container .bottom3 .bottom3b h2:hover{
+    color: hsl(5, 85%, 63%);
+}
+    
+.bottom-container .bottom3 .bottom3b p{
+    font-size: 0.9rem;
+    color: hsl(233, 8%, 79%);
+    
+
+}
+.attribution 
+{   
+    font-size: 0.6rem; 
+    text-align: center; 
+    margin: auto;
+    /* position: absolute;
+    bottom: 0px;
+    left: 500px; */
+    color: hsl(240, 100%, 5%);
+    font-family:'Tnter';
+    font-weight: 400;
+}
+.attribution a 
+{ 
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+@media only screen and (max-width: 425px){
+    body{
+        width: 100vw;
+        min-height: 100vh;
+    }
+    #navbar{
+        width: 90%;   
+    }
+    .nav-link{
+        display: none;
+        
+    }
+    .iconnav-link a:hover{
+        color: hsl(5, 85%, 63%);
+        
+    }
+   .dropdown{
+    opacity: 1;
+    width: 250px;
+    min-height: 100vh;
+    
+    padding: 1.5rem 0.7rem;
+    color: hsl(240, 100%, 5%);
+    position: absolute;
+    top: -25px;
+    transform: translateX(-65%);
+    background-color: hsl(0, 0%, 100%);
+   }
+   .dropdown nav{
+    
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: right;
+   
+   }
+   .dropdown #close img{
+    width: 25%;
+    padding-right: 2rem;
+   }
+   .dropdown{
+        display: none;
+   }
+    .hidden{
+    display: block ;
+   }
+   .dropdown .iconnav-link{
+    color: hsl(240, 100%, 5%);
+    text-decoration: none;
+    list-style: none;
+    font-size: 0.9rem;
+    font-family: 'Inter';
+    line-height: 2rem;
+    padding: 3rem 1rem;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 600;
+
+   }
+   .dropdown .iconnav-link:hover{
+    color: hsl(5, 85%, 63%);
+
+}
+    .icon-menu{
+        display: block;
+        position: relative;
+        right: -110px;
+ 
+    }
+    .container{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .filter{
+        opacity: 0.5;
+    }
+    .top-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .left-top-top .img2{
+        display: block;
+        width: 100%;
+        /* overflow: hidden; */
+        object-fit: contain;
+        
+    }
+    .left-top-top .img1{
+        display: none;
+    }
+    .left-top-bottom{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .left-top-bottom-right{
+        width: 100%;
+    }
+    .left-top-bottom-right p{
+        text-align: left;
+        padding: 0;
+    }
+    .left-top-bottom-right .read{
+        margin-left: 0;
+    }
+    .bottom-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .right-top{
+        width: 100%;
+    }
+      
+    .bottom-container .bottom1 .bottom1a img{
+        width: 100%;
+    }
+    .bottom-container .bottom2 .bottom2a img{
+        width: 88%;
+    }
+    .bottom-container .bottom3 .bottom3a img{
+        width: 100%;
+    }
+}
