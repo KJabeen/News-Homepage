@@ -21,6 +21,14 @@ Users should be able to:
 - See hover and focus states for all interactive elements on the page
 
 ### Screenshot
+#### Desktop
+![image](https://github.com/KJabeen/News-Homepage/assets/126177876/d8434d18-4063-4469-853b-2e8f307a341f)
+
+#### Mobile
+
+![image](https://github.com/KJabeen/News-Homepage/assets/126177876/75444f02-3a13-415e-a007-82aba089e417)
+
+![image](https://github.com/KJabeen/News-Homepage/assets/126177876/3379796d-98a5-41aa-949c-5e38745df89a)
 
 
 ### Links
